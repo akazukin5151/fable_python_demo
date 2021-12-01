@@ -1,4 +1,4 @@
-# fable_python_demo
+# Simple Fable Python demo
 
 Demonstration for https://github.com/fable-compiler/Fable.Python, showing how to start an F# project with Fable and run Python code
 
