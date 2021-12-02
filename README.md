@@ -23,7 +23,7 @@ Basically, Javascript has Typescript, but Python has nothing. Mypy isn't a solut
 - OCaml
 - F#
 
-Haskell is too tightly coupled to GHC to make a transpiler. Purescript is good but [bug report still pending](https://github.com/purescript-python/purescript-python/issues/37).OCaml's ecosystem looked pretty dead to me, to be honest. F#, like Purescript, can transpile to Python via Fable, and there are no bugs.
+Haskell is too tightly coupled to GHC to make a transpiler. Purescript is good but [the purescript-python project is dropping Python to Diana](https://github.com/purescript-python/purescript-python/issues/37). OCaml's ecosystem looked pretty dead to me, to be honest. F#, like Purescript, can transpile to Python via Fable, and there are no bugs.
 
 ### What's wrong with Python?
 
