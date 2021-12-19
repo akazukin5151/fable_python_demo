@@ -59,7 +59,7 @@ Talking about matplotlib, it's also because [FSharp Charting](https://github.com
 - C++: https://en.wikipedia.org/wiki/Most_vexing_parse
 - PHP: https://news-web.php.net/php.internals/70691
 - Javascript: actually not too bad, especially if you use typescript, or even better, purescript
-- Rust: not functional enough, lifetimes worse than monads
+- Rust: not functional enough, lifetimes more complicated than category theory (not really rust's fault though, manual memory management of any kind is (too) hard)
 
 ### Biggest problem with transpiling?
 
