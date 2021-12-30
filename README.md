@@ -36,6 +36,8 @@ Haskell is too tightly coupled to GHC to make a transpiler. Purescript is good b
 - Many unit tests are needed because of the lack of static guarantees. Dynamic typing shifts the burden of static analysis by the compiler to poorly written unit tests by humans.
 - Haskell libraries might lack extensive documentation compared to Python, but it doesn't matter when you can click on the types and figure out how to construct them.
     - For example [pandas.DataFrame.apply](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.apply.html) accepts a function, but does not say how many arguments that function should have, and what it should return. If multiple kind of functions are accepted, there should be multiple different `apply` functions. If this was Haskell, a type signature of, say `DataFrame a -> (a -> b) -> DataFrame b`, would let us know immediately what the function needs to be: accept a dtype of the DataFrame and return something else. Reducing (fold) would look like `DataFrame a -> (a -> b -> b) -> DataFrame a`
+- Package management. It is essentially impossible to package consistently. Every module can take a different method. One time, pacman-mirrors suddenly stopped working because it was installed in `/usr/lib/python3.10` not `/usr/lib/python3.9`. It takes dynamic linking to its extreme - nothing matters until you actually run it.
+    - Yes, dynamic linking in C is also messed up. How many times did I have to symlink a lib in `/usr/lib/` from `x.so` to `x.so.5` or `x.so.6`? Just use static linking, people.
 
 ### But I am too dependant on Python!
 
