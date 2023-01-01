@@ -57,7 +57,7 @@ Talking about matplotlib, it's also because [FSharp Charting](https://github.com
 
 - Julia: still dynamic, slow compile time/time-to-first-plot. Despite being a dynamic, interpreted language, Julia can only run compiled code.
 - R: not really a general purpose programming language
-- C: quick, what does `char (*(*x())[5])()` mean?
+- C: quick, what does `char (*(*x())[5])()` mean? And how is `fn() -> [Box<fn() -> char>; 5]` not better ([playground](https://play.rust-lang.org/?version=stable&mode=debug&edition=2021&gist=9f5f5203076895a6439185527210b823))?
 - C++: https://en.wikipedia.org/wiki/Most_vexing_parse
 - PHP: https://news-web.php.net/php.internals/70691
 - Javascript: actually not too bad, especially if you use typescript, or even better, purescript
